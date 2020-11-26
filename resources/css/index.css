@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+}
+
+i.fas {
+    font-size: 4rem;
+}
+
+.izfp {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    top: 15rem;
+    left: 35rem;
+    background-image: url("./resources/images/background.png");
+    border: 3px solid black;
+    height: 20rem;
+    width: 14rem;
+}
+
+.fa-database {}
+
+.fa-exchange-alt {
+    transform: rotate(90deg);
+}
+
+.toolbox {
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+    align-items: baseline;
+}
+
+#tools {
+    font-size: 1.8rem;
+}
