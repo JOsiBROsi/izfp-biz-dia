@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 html {
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
 }
 
-i.fas {
+.fas,
+.far {
     font-size: 4rem;
 }
 
-.izfp {
+.izfp-infrastructure {
     position: absolute;
+    top: 15rem;
+    left: 35rem;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.izfp h4 {
+    position: absolute;
+    top: -1rem;
+    left: 0.4rem;
+}
+
+.izfp-data-center {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
-    top: 15rem;
-    left: 35rem;
-    background-image: url("./resources/images/background.png");
-    border: 3px solid black;
     height: 20rem;
-    width: 14rem;
+    padding-left: 1rem;
 }
 
-.fa-database {}
+.fa-database {
+    color: midnightblue;
+}
 
-.fa-exchange-alt {
+.rotate-90-deg {
     transform: rotate(90deg);
 }
 
@@ -31,8 +49,115 @@ i.fas {
     justify-content: space-between;
     width: 9rem;
     align-items: baseline;
+    background-color: rgba(240, 240, 240, 0.7);
+    border-radius: 5px;
 }
 
-#tools {
+.tool {
     font-size: 1.8rem;
+}
+
+.fa-wrench {
+    /*color: darkgoldenrod;*/
+    transform: rotate(-90deg);
+}
+
+.exchange-service-izfp {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 20rem;
+    padding: 0 1rem;
+}
+
+.invisible-exchange {
+    visibility: hidden;
+}
+
+.izfp-service {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 20rem;
+    padding-right: 1rem;
+}
+
+.invisible-chart {
+    visibility: hidden;
+}
+
+
+/* Leasing section */
+
+.customer-leasing {
+    position: absolute;
+    top: 13.5rem;
+    left: 22rem;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+    align-items: center;
+}
+
+.fa-clock {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 0.75rem;
+}
+
+#exchange-measurement-company {
+    font-size: 1rem;
+    margin-right: 0.35rem;
+}
+
+.fa-ruler {
+    font-size: 2rem;
+}
+
+.exchange-measurement-izfp .fa-exchange-alt {
+    position: absolute;
+    z-index: 15;
+}
+
+#leasing .fa-exchange-alt {
+    top: 16.5rem;
+    left: 32.25rem;
+}
+
+
+/*Buy one get one free section*/
+
+#get-one-free .fa-exchange-alt {
+    top: 11rem;
+    left: 38rem;
+    transform: rotate(90deg);
+}
+
+.customer-get-one-free {
+    position: absolute;
+    top: 3rem;
+    left: 40rem;
+}
+
+
+/*After-sales-service section*/
+
+#after-sales .fa-exchange-alt {
+    top: 29.25rem;
+    left: 56rem;
+}
+
+.customer-after-sales {
+    position: absolute;
+    top: 25.5rem;
+    left: 62rem;
+}
+
+.company-database {
+    font-size: 2rem;
 }
