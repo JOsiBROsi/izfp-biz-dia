@@ -144,7 +144,6 @@ html {
 
 .exchange-measurement-izfp .fa-exchange-alt {
     position: absolute;
-    z-index: 15;
 }
 
 
@@ -162,12 +161,27 @@ html {
     left: 39.5rem;
 }
 
+.customer-get-one-free h4 {
+    min-width: 12rem;
+}
+
+.fa-tag {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 2rem;
+    left: 1.5rem;
+}
+
 
 /*After-sales-service section*/
 
 #after-sales .fa-exchange-alt {
     top: 30rem;
     left: 56.4rem;
+}
+
+.customer-after-sales h4 {
+    min-width: 11rem;
 }
 
 .customer-after-sales {
