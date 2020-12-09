@@ -209,7 +209,9 @@ html {
 .customer-federated-learning {
     position: absolute;
     top: 25.75rem;
-    left: 16.5rem;
+    left: 20rem;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .fa-file {
@@ -228,4 +230,17 @@ html {
     top: 0.7rem;
     left: 0.02rem;
     transform: rotate(0deg);
+}
+
+.beneath {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 7.25rem;
+    left: 5.75rem;
+}
+
+#ruler-beneath {
+    position: relative;
+    left: 5rem;
+    top: 0.25rem;
 }
